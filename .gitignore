@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Databases
+*.db
+*.sqlite
+*.h2.db
+
+# Logs
+*.log
+logs/
+
+# Backend (Java/Maven)
+backend/target/
+backend/data/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.iml
+backend/.gradle/
+backend/build/
+*.class
+*.jar
+*.war
+*.nar
+*.zip
+
+# Frontend (Node.js)
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/.nuxt/
+frontend/build/
+frontend/coverage/
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# IDE & Editor
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.sublime-workspace
+*.code-workspace
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Cache
+.m2/
+.npm-cache/
+maven-repo/
+npm-cache/
+.gradle/cache/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific
+*.iml
+.vscode/
+*.sublime-project
+
+# Build artifacts
+dist/
+build/
+out/
